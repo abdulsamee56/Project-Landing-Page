@@ -95,18 +95,18 @@ ul li a{
     display: flex;
     gap:150px;
     background-color: lightgray;
-    
+    margin:0;
     padding:16px;
    
 
 }
 
 .mid-pic{
-    width: 350px;
-    height:221px;
+    width: 400px;
+    height:253px;
     border:5px solid black;
     border-radius: 15px;
-
+    margin:55px;
     
 }
 
