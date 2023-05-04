@@ -5,8 +5,8 @@
     padding: 10px;
     justify-content: space-between;
     display: flex;
-    
     align-items: center;
+
   }
 
 
@@ -15,6 +15,7 @@
     font-size: 32px;
     font-weight:bold;
     margin-left:200px;
+    flex-grow: 1;
 }
 
 
@@ -34,6 +35,7 @@ ul{
 body{
     margin:0;
     padding:0;
+   
 
   }
 
@@ -86,3 +88,36 @@ ul li a{
     color: red;
     border: 2px solid red;
   }
+
+
+.info{
+    display: flex;
+    gap:150px;
+    background-color: lightgray;
+    margin:0;
+    padding:16px
+}
+
+.mid-pic{
+    width: 400px;
+    height:253px;
+    border:5px solid black;
+    border-radius: 15px;
+    margin:55px;
+}
+
+.image-header{
+    text-align: center;
+    margin-top:1px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.image-caption{
+    text-align: center;
+    margin-top:1px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
