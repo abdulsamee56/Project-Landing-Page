@@ -93,11 +93,10 @@ ul li a{
 
 .info{
     display: flex;
-    gap:150px;
     background-color: lightgray;
     margin:0;
     padding:16px;
-   
+    justify-content: space-between;
 
 }
 
