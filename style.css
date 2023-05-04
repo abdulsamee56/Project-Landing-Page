@@ -35,6 +35,7 @@ ul{
 body{
     margin:0;
     padding:0;
+    
    
 
   }
@@ -95,7 +96,9 @@ ul li a{
     gap:150px;
     background-color: lightgray;
     margin:0;
-    padding:16px
+    padding:16px;
+   
+
 }
 
 .mid-pic{
@@ -103,7 +106,8 @@ ul li a{
     height:253px;
     border:5px solid black;
     border-radius: 15px;
-    margin:55px;
+    margin:px;
+    
 }
 
 .image-header{
