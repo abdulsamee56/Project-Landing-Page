@@ -24,13 +24,12 @@ ul{
  
 }
 
-li{
-    display: flex;
-    
+.short-main{
+    font-size:18px; width:300px;
 }
-
 body{
     margin:0;
+    padding:0;
 
   }
 
@@ -39,3 +38,45 @@ ul li a{
     text-decoration: none;
     font-size:18px;
 }
+
+
+.Hero{
+    background-color: black;
+    color:white;
+    display: flex;
+}
+
+
+.Main{
+    padding:10px;
+    font-size:42px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap:16px;
+    padding-top: 100px;
+    height: 300px;
+    padding-bottom:50px;
+
+}
+
+.btn {
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    border: 5px solid transparent;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 25px;
+    width: 150px; /* Change the width to fit your desired size */
+    display: flex; /* This will make the button a block element */
+    justify-content: center; /* Center the text within the button */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+  
