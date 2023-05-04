@@ -1,5 +1,5 @@
 .Header {
-    background-color: black;
+   background-color: black;
     color: white;
     margin: 0;
     padding: 10px;
@@ -9,6 +9,8 @@
     align-items: center;
   }
 
+
+ 
 .logo{
     font-size: 32px;
     font-weight:bold;
@@ -25,7 +27,9 @@ ul{
 }
 
 .short-main{
-    font-size:18px; width:300px;
+    font-size:18px; 
+    width:500px;
+    text-align: center;
 }
 body{
     margin:0;
@@ -41,9 +45,14 @@ ul li a{
 
 
 .Hero{
-    background-color: black;
+    font-weight: bold;
+    background-image: url('img/banner-shelby.jpg');
+    background-position:bottom;
+    background-position-y:410px;
     color:white;
     display: flex;
+    justify-content: center;
+    
 }
 
 
@@ -52,12 +61,10 @@ ul li a{
     font-size:42px;
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    align-items: center;
     gap:16px;
     padding-top: 100px;
-    height: 300px;
-    padding-bottom:50px;
-
+    padding-bottom:80px;
 }
 
 .btn {
@@ -79,4 +86,3 @@ ul li a{
     color: red;
     border: 2px solid red;
   }
-  
