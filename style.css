@@ -130,6 +130,58 @@ ul li a{
     padding-top:5px;
     font-weight: 700;
     font-size: 18px;
-
 }
+
+.soon {
+    padding:10px;
+    font-size: 24px;
+    font-style: oblique;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+    
+  }
+  
+  /* Styling for form input fields */
+  input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: block;
+  }
+  
+  /* Styling for form button */
+  .form-container button {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Styling for form button hover */
+  .form-container button:hover {
+    background-color: red;
+  }
+
 
